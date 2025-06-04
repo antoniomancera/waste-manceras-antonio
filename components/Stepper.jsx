@@ -45,6 +45,12 @@ export default function Stepper() {
           ></div>
         </div>
       </div>
-    </div>
+      <div className="text-center mb-8 text-gray-300">
+  <p className="text-lg">
+    <span className="font-semibold text-blue-400">Postcode:</span> LE10 1SH &nbsp;|&nbsp;
+    <span className="font-semibold text-blue-400">Waste Type:</span> Garden Waste
+  </p>
+</div>
+    </div> 
   );
 }
